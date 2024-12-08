@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+    </div>
+    <main>
+        <h1 class="m-h1">Tic Tac Toe</h1>
+        <div class="container">
+            <div class="Game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <div class="m-container">
+            <button id="msg-btn">New Game</button>
+            <button id="reset-btn">Reset Game</button>
+        </div>
+    </main>
+
+    <div class="btn-container">
+        <div class="btn-modal">
+            <button id="infoButton">Instruction ?</button>
+            <div id="info" style="display: none;">
+                <h2 class="tips">How to Play Tic Tac Toe</h2>
+                <p class="tip">Tic Tac Toe is a simple game played on a 3x3 grid. </p><br>
+                <p class="tip">Two players are required for the game. </p><br>
+                <p class="tip">
+                    The first player must place their mark on any of the 9 squares on the grid.
+                    Then, the second player has a turn to place their mark on the grid.</p><br>
+                <p class="tip">Each player must continue to take 1 turn at a time to place their marks until all the
+                    squares are full or until one of the players gets 3 of their marks in a straight line that in
+                    vertical, horizontal, or diagonal. </p><br>
+                <div class="footer">
+                    <p>Made With <span class="r_clr">❤</span> by Mrunali</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Java Script -->
+    <script src="app.js"></script>
+</body>
+
+</html>

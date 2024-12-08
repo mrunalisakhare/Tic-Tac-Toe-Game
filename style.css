@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-image: url(bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    height: 8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-h1 {
+    font-size: 3.3rem;
+}
+
+h1:hover {
+    font-style: italic;
+}
+
+.container {
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Game {
+    height: 45vmin;
+    width: 54vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 13vmin;
+    width: 13vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    font-size: 6vmin;
+    color: #ffcc00;
+    background-color: #fff;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.m-container {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.m-container :hover {
+    transform: scale(0.96);
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    margin: 0px 10px;
+    background-color: #2e71de;
+}
+
+#msg-btn {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    margin: 0px 10px;
+}
+
+#msg-btn {
+    background-color: #c41b34;
+}
+
+#msg {
+    color: #000;
+    font-size: 5vmin;
+    font-style: italic;
+}
+
+.msg-container {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+   background-color: rgb(255, 222, 228);
+}
+
+.btn-modal {
+    width: 80%;
+    max-width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.tip {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+}
+
+.tips {
+    text-align: center;
+    margin: 4px 0px;
+}
+
+#infoButton {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    margin: 0px 10px;
+    transition: background-color 0.3s;
+    background-color: #14A44D;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.r_clr {
+    color: rgb(222, 25, 25);
+}
